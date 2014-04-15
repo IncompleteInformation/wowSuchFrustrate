@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		047AB99C18FDF56300C7DDFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AB99B18FDF56300C7DDFF /* Foundation.framework */; };
+		047AB99E18FDF56300C7DDFF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AB99D18FDF56300C7DDFF /* CoreGraphics.framework */; };
+		047AB9A018FDF56300C7DDFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AB99F18FDF56300C7DDFF /* UIKit.framework */; };
+		047AB9A618FDF56300C7DDFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 047AB9A418FDF56300C7DDFF /* InfoPlist.strings */; };
+		047AB9A818FDF56300C7DDFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AB9A718FDF56300C7DDFF /* main.m */; };
+		047AB9AC18FDF56300C7DDFF /* WVTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AB9AB18FDF56300C7DDFF /* WVTAppDelegate.m */; };
+		047AB9AF18FDF56300C7DDFF /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047AB9AD18FDF56300C7DDFF /* Main_iPhone.storyboard */; };
+		047AB9B218FDF56300C7DDFF /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047AB9B018FDF56300C7DDFF /* Main_iPad.storyboard */; };
+		047AB9B518FDF56300C7DDFF /* WVTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AB9B418FDF56300C7DDFF /* WVTMainViewController.m */; };
+		047AB9B818FDF56300C7DDFF /* WVTFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AB9B718FDF56300C7DDFF /* WVTFlipsideViewController.m */; };
+		047AB9BA18FDF56300C7DDFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047AB9B918FDF56300C7DDFF /* Images.xcassets */; };
+		047AB9C118FDF56300C7DDFF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AB9C018FDF56300C7DDFF /* XCTest.framework */; };
+		047AB9C218FDF56300C7DDFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AB99B18FDF56300C7DDFF /* Foundation.framework */; };
+		047AB9C318FDF56300C7DDFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047AB99F18FDF56300C7DDFF /* UIKit.framework */; };
+		047AB9CB18FDF56300C7DDFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 047AB9C918FDF56300C7DDFF /* InfoPlist.strings */; };
+		047AB9CD18FDF56300C7DDFF /* wowSuchFrustrateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AB9CC18FDF56300C7DDFF /* wowSuchFrustrateTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		047AB9C418FDF56300C7DDFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047AB99018FDF56300C7DDFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047AB99718FDF56300C7DDFF;
+			remoteInfo = wowSuchFrustrate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		047AB99818FDF56300C7DDFF /* wowSuchFrustrate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wowSuchFrustrate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		047AB99B18FDF56300C7DDFF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		047AB99D18FDF56300C7DDFF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		047AB99F18FDF56300C7DDFF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		047AB9A318FDF56300C7DDFF /* wowSuchFrustrate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wowSuchFrustrate-Info.plist"; sourceTree = "<group>"; };
+		047AB9A518FDF56300C7DDFF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		047AB9A718FDF56300C7DDFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		047AB9A918FDF56300C7DDFF /* wowSuchFrustrate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "wowSuchFrustrate-Prefix.pch"; sourceTree = "<group>"; };
+		047AB9AA18FDF56300C7DDFF /* WVTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WVTAppDelegate.h; sourceTree = "<group>"; };
+		047AB9AB18FDF56300C7DDFF /* WVTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WVTAppDelegate.m; sourceTree = "<group>"; };
+		047AB9AE18FDF56300C7DDFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		047AB9B118FDF56300C7DDFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		047AB9B318FDF56300C7DDFF /* WVTMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WVTMainViewController.h; sourceTree = "<group>"; };
+		047AB9B418FDF56300C7DDFF /* WVTMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WVTMainViewController.m; sourceTree = "<group>"; };
+		047AB9B618FDF56300C7DDFF /* WVTFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WVTFlipsideViewController.h; sourceTree = "<group>"; };
+		047AB9B718FDF56300C7DDFF /* WVTFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WVTFlipsideViewController.m; sourceTree = "<group>"; };
+		047AB9B918FDF56300C7DDFF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		047AB9BF18FDF56300C7DDFF /* wowSuchFrustrateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wowSuchFrustrateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		047AB9C018FDF56300C7DDFF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		047AB9C818FDF56300C7DDFF /* wowSuchFrustrateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wowSuchFrustrateTests-Info.plist"; sourceTree = "<group>"; };
+		047AB9CA18FDF56300C7DDFF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		047AB9CC18FDF56300C7DDFF /* wowSuchFrustrateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wowSuchFrustrateTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		047AB99518FDF56300C7DDFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047AB99E18FDF56300C7DDFF /* CoreGraphics.framework in Frameworks */,
+				047AB9A018FDF56300C7DDFF /* UIKit.framework in Frameworks */,
+				047AB99C18FDF56300C7DDFF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047AB9BC18FDF56300C7DDFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047AB9C118FDF56300C7DDFF /* XCTest.framework in Frameworks */,
+				047AB9C318FDF56300C7DDFF /* UIKit.framework in Frameworks */,
+				047AB9C218FDF56300C7DDFF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		047AB98F18FDF56300C7DDFF = {
+			isa = PBXGroup;
+			children = (
+				047AB9A118FDF56300C7DDFF /* wowSuchFrustrate */,
+				047AB9C618FDF56300C7DDFF /* wowSuchFrustrateTests */,
+				047AB99A18FDF56300C7DDFF /* Frameworks */,
+				047AB99918FDF56300C7DDFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		047AB99918FDF56300C7DDFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				047AB99818FDF56300C7DDFF /* wowSuchFrustrate.app */,
+				047AB9BF18FDF56300C7DDFF /* wowSuchFrustrateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		047AB99A18FDF56300C7DDFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				047AB99B18FDF56300C7DDFF /* Foundation.framework */,
+				047AB99D18FDF56300C7DDFF /* CoreGraphics.framework */,
+				047AB99F18FDF56300C7DDFF /* UIKit.framework */,
+				047AB9C018FDF56300C7DDFF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		047AB9A118FDF56300C7DDFF /* wowSuchFrustrate */ = {
+			isa = PBXGroup;
+			children = (
+				047AB9AA18FDF56300C7DDFF /* WVTAppDelegate.h */,
+				047AB9AB18FDF56300C7DDFF /* WVTAppDelegate.m */,
+				047AB9AD18FDF56300C7DDFF /* Main_iPhone.storyboard */,
+				047AB9B018FDF56300C7DDFF /* Main_iPad.storyboard */,
+				047AB9B318FDF56300C7DDFF /* WVTMainViewController.h */,
+				047AB9B418FDF56300C7DDFF /* WVTMainViewController.m */,
+				047AB9B618FDF56300C7DDFF /* WVTFlipsideViewController.h */,
+				047AB9B718FDF56300C7DDFF /* WVTFlipsideViewController.m */,
+				047AB9B918FDF56300C7DDFF /* Images.xcassets */,
+				047AB9A218FDF56300C7DDFF /* Supporting Files */,
+			);
+			path = wowSuchFrustrate;
+			sourceTree = "<group>";
+		};
+		047AB9A218FDF56300C7DDFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				047AB9A318FDF56300C7DDFF /* wowSuchFrustrate-Info.plist */,
+				047AB9A418FDF56300C7DDFF /* InfoPlist.strings */,
+				047AB9A718FDF56300C7DDFF /* main.m */,
+				047AB9A918FDF56300C7DDFF /* wowSuchFrustrate-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		047AB9C618FDF56300C7DDFF /* wowSuchFrustrateTests */ = {
+			isa = PBXGroup;
+			children = (
+				047AB9CC18FDF56300C7DDFF /* wowSuchFrustrateTests.m */,
+				047AB9C718FDF56300C7DDFF /* Supporting Files */,
+			);
+			path = wowSuchFrustrateTests;
+			sourceTree = "<group>";
+		};
+		047AB9C718FDF56300C7DDFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				047AB9C818FDF56300C7DDFF /* wowSuchFrustrateTests-Info.plist */,
+				047AB9C918FDF56300C7DDFF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		047AB99718FDF56300C7DDFF /* wowSuchFrustrate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047AB9D018FDF56300C7DDFF /* Build configuration list for PBXNativeTarget "wowSuchFrustrate" */;
+			buildPhases = (
+				047AB99418FDF56300C7DDFF /* Sources */,
+				047AB99518FDF56300C7DDFF /* Frameworks */,
+				047AB99618FDF56300C7DDFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wowSuchFrustrate;
+			productName = wowSuchFrustrate;
+			productReference = 047AB99818FDF56300C7DDFF /* wowSuchFrustrate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		047AB9BE18FDF56300C7DDFF /* wowSuchFrustrateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047AB9D318FDF56300C7DDFF /* Build configuration list for PBXNativeTarget "wowSuchFrustrateTests" */;
+			buildPhases = (
+				047AB9BB18FDF56300C7DDFF /* Sources */,
+				047AB9BC18FDF56300C7DDFF /* Frameworks */,
+				047AB9BD18FDF56300C7DDFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047AB9C518FDF56300C7DDFF /* PBXTargetDependency */,
+			);
+			name = wowSuchFrustrateTests;
+			productName = wowSuchFrustrateTests;
+			productReference = 047AB9BF18FDF56300C7DDFF /* wowSuchFrustrateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		047AB99018FDF56300C7DDFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WVT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___CASEYANDJOE___";
+				TargetAttributes = {
+					047AB9BE18FDF56300C7DDFF = {
+						TestTargetID = 047AB99718FDF56300C7DDFF;
+					};
+				};
+			};
+			buildConfigurationList = 047AB99318FDF56300C7DDFF /* Build configuration list for PBXProject "wowSuchFrustrate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 047AB98F18FDF56300C7DDFF;
+			productRefGroup = 047AB99918FDF56300C7DDFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				047AB99718FDF56300C7DDFF /* wowSuchFrustrate */,
+				047AB9BE18FDF56300C7DDFF /* wowSuchFrustrateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		047AB99618FDF56300C7DDFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047AB9B218FDF56300C7DDFF /* Main_iPad.storyboard in Resources */,
+				047AB9BA18FDF56300C7DDFF /* Images.xcassets in Resources */,
+				047AB9AF18FDF56300C7DDFF /* Main_iPhone.storyboard in Resources */,
+				047AB9A618FDF56300C7DDFF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047AB9BD18FDF56300C7DDFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047AB9CB18FDF56300C7DDFF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		047AB99418FDF56300C7DDFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047AB9AC18FDF56300C7DDFF /* WVTAppDelegate.m in Sources */,
+				047AB9A818FDF56300C7DDFF /* main.m in Sources */,
+				047AB9B818FDF56300C7DDFF /* WVTFlipsideViewController.m in Sources */,
+				047AB9B518FDF56300C7DDFF /* WVTMainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047AB9BB18FDF56300C7DDFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047AB9CD18FDF56300C7DDFF /* wowSuchFrustrateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		047AB9C518FDF56300C7DDFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047AB99718FDF56300C7DDFF /* wowSuchFrustrate */;
+			targetProxy = 047AB9C418FDF56300C7DDFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		047AB9A418FDF56300C7DDFF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047AB9A518FDF56300C7DDFF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		047AB9AD18FDF56300C7DDFF /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047AB9AE18FDF56300C7DDFF /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		047AB9B018FDF56300C7DDFF /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047AB9B118FDF56300C7DDFF /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		047AB9C918FDF56300C7DDFF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047AB9CA18FDF56300C7DDFF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		047AB9CE18FDF56300C7DDFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		047AB9CF18FDF56300C7DDFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		047AB9D118FDF56300C7DDFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wowSuchFrustrate/wowSuchFrustrate-Prefix.pch";
+				INFOPLIST_FILE = "wowSuchFrustrate/wowSuchFrustrate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		047AB9D218FDF56300C7DDFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wowSuchFrustrate/wowSuchFrustrate-Prefix.pch";
+				INFOPLIST_FILE = "wowSuchFrustrate/wowSuchFrustrate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		047AB9D418FDF56300C7DDFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/wowSuchFrustrate.app/wowSuchFrustrate";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wowSuchFrustrate/wowSuchFrustrate-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "wowSuchFrustrateTests/wowSuchFrustrateTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		047AB9D518FDF56300C7DDFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/wowSuchFrustrate.app/wowSuchFrustrate";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wowSuchFrustrate/wowSuchFrustrate-Prefix.pch";
+				INFOPLIST_FILE = "wowSuchFrustrateTests/wowSuchFrustrateTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		047AB99318FDF56300C7DDFF /* Build configuration list for PBXProject "wowSuchFrustrate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047AB9CE18FDF56300C7DDFF /* Debug */,
+				047AB9CF18FDF56300C7DDFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047AB9D018FDF56300C7DDFF /* Build configuration list for PBXNativeTarget "wowSuchFrustrate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047AB9D118FDF56300C7DDFF /* Debug */,
+				047AB9D218FDF56300C7DDFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		047AB9D318FDF56300C7DDFF /* Build configuration list for PBXNativeTarget "wowSuchFrustrateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047AB9D418FDF56300C7DDFF /* Debug */,
+				047AB9D518FDF56300C7DDFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 047AB99018FDF56300C7DDFF /* Project object */;
+}
