@@ -90,6 +90,7 @@
 {
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
         [self dismissViewControllerAnimated:YES completion:nil];
+        [self resetStopwatch];
     } else {
         [self.flipsidePopoverController dismissPopoverAnimated:YES];
     }
