@@ -7,6 +7,7 @@
 //
 
 #import "WVTMainViewController.h"
+#import "WVTFlipsideViewController.h"
 
 @interface WVTMainViewController ()
 
@@ -74,7 +75,7 @@
 - (IBAction)stopButtonPressed
 {
     [buttonLabel setTitle:@"START" forState:UIControlStateNormal];
-    [self resetStopwatch];
+//    [self resetStopwatch];
 }
 
 - (void)resetStopwatch
@@ -104,6 +105,11 @@
 {
     if ([[segue identifier] isEqualToString:@"showAlternate"]) {
         [[segue destinationViewController] setDelegate:self];
+//        UINavigationController *navController = (UINavigationController *)segue.destinationViewController;
+//        WVTFlipsideViewController *flipSideController = (WVTFlipsideViewController *)navController.topViewController;
+//        flipSideController.lapTimes = lapTimes;
+        WVTFlipsideViewController *controller = (WVTFlipsideViewController *)segue.destinationViewController;
+        controller.lapTimes = lapTimes;
         
         if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
             UIPopoverController *popoverController = [(UIStoryboardPopoverSegue *)segue popoverController];

@@ -10,7 +10,7 @@
 
 
 
-@interface WVTMainViewController : UIViewController <WVTFlipsideViewControllerDelegate, UIPopoverControllerDelegate> {
+@interface WVTMainViewController : UIViewController <UISplitViewControllerDelegate, UIPopoverControllerDelegate> {
     IBOutlet UIButton *buttonLabel;
 }
 @property (weak, nonatomic) IBOutlet UILabel *wowDisplay;
