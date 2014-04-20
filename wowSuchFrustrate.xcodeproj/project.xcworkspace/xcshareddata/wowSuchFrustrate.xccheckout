@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6DB0014A-EFD2-40AF-9128-87C00EF08448</string>
+	<key>IDESourceControlProjectName</key>
+	<string>wowSuchFrustrate</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>35C05160-7251-4CE8-9831-4BA5657DA696</key>
+		<string>https://github.com/IncompleteInformation/wowSuchFrustrate.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>wowSuchFrustrate.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>35C05160-7251-4CE8-9831-4BA5657DA696</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/IncompleteInformation/wowSuchFrustrate.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>35C05160-7251-4CE8-9831-4BA5657DA696</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>35C05160-7251-4CE8-9831-4BA5657DA696</string>
+			<key>IDESourceControlWCCName</key>
+			<string>wowSuchFrustrate</string>
+		</dict>
+	</array>
+</dict>
+</plist>

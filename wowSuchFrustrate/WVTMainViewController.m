@@ -41,7 +41,7 @@
     self.wowDisplay.text = [NSString stringWithFormat:@"%u.%03u", seconds, milliseconds];
     
     [self performSelector:@selector(updateTimer
-                                    ) withObject:self afterDelay:.001];
+                                    ) withObject:self afterDelay:.0166666];
 }
 
 - (NSTimeInterval)getElapsedTime
