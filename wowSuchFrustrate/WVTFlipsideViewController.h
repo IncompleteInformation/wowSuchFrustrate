@@ -16,6 +16,9 @@
 
 @interface WVTFlipsideViewController : UIViewController
 
+// I dragged this is from the storyboard
+// not really sure how to populate it
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (weak, nonatomic) id <WVTFlipsideViewControllerDelegate> delegate;
 
 - (IBAction)done:(id)sender;

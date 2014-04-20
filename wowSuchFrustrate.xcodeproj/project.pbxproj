@@ -400,6 +400,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "wowSuchFrustrate/wowSuchFrustrate-Prefix.pch";
 				INFOPLIST_FILE = "wowSuchFrustrate/wowSuchFrustrate-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -413,6 +414,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "wowSuchFrustrate/wowSuchFrustrate-Prefix.pch";
 				INFOPLIST_FILE = "wowSuchFrustrate/wowSuchFrustrate-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -434,6 +436,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "wowSuchFrustrateTests/wowSuchFrustrateTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -452,6 +455,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "wowSuchFrustrate/wowSuchFrustrate-Prefix.pch";
 				INFOPLIST_FILE = "wowSuchFrustrateTests/wowSuchFrustrateTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -477,6 +481,7 @@
 				047AB9D218FDF56300C7DDFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		047AB9D318FDF56300C7DDFF /* Build configuration list for PBXNativeTarget "wowSuchFrustrateTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +490,7 @@
 				047AB9D518FDF56300C7DDFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

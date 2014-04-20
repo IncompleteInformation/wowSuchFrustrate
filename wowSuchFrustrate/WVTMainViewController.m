@@ -12,18 +12,81 @@
 
 @end
 
-@implementation WVTMainViewController
+@implementation WVTMainViewController{
+    BOOL running;
+//    int counter;
+    NSTimeInterval startTime;
+//    NSTimeInterval lapTimesArray[1000];
+    NSMutableArray *lapTimes;
+}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    [self resetStopwatch];
+}
+
+
+- (void)updateTimer
+{
+    if (running == false) return;
+    
+    NSTimeInterval elapsedTime = [self getElapsedTime];
+    
+    int milliseconds = (int)((elapsedTime - (int)elapsedTime)*1000);
+    int seconds = (int) elapsedTime;
+    
+
+    self.wowDisplay.text = [NSString stringWithFormat:@"%u.%03u", seconds, milliseconds];
+    
+    [self performSelector:@selector(updateTimer
+                                    ) withObject:self afterDelay:.001];
+}
+
+- (NSTimeInterval)getElapsedTime
+{
+    NSTimeInterval curTime = [NSDate timeIntervalSinceReferenceDate];
+    return curTime - startTime;
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)startButtonPressed
+{
+    
+    [buttonLabel setTitle:@"LAP" forState:UIControlStateNormal];
+    if (!running)
+    {
+        running = true;
+        startTime = [NSDate timeIntervalSinceReferenceDate];
+        [self updateTimer];
+    }
+    else
+    {
+//        lapTimesArray[counter] = [self getElapsedTime];
+//        counter++;
+        [lapTimes addObject:[NSNumber numberWithDouble:[self getElapsedTime]]];
+//        NSLog(@"%@",lapTimes);
+    }
+}
+
+- (IBAction)stopButtonPressed
+{
+    [buttonLabel setTitle:@"START" forState:UIControlStateNormal];
+    [self resetStopwatch];
+}
+
+- (void)resetStopwatch
+{
+    self.wowDisplay.text = @"0.000";
+    running = false;
+//    counter = 0;
+    lapTimes = [[NSMutableArray alloc] init];
 }
 
 #pragma mark - Flipside View Controller
