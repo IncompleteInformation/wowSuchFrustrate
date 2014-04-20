@@ -14,9 +14,7 @@
 
 @implementation WVTMainViewController{
     BOOL running;
-//    int counter;
     NSTimeInterval startTime;
-//    NSTimeInterval lapTimesArray[1000];
     NSMutableArray *lapTimes;
 }
 
@@ -68,8 +66,6 @@
     }
     else
     {
-//        lapTimesArray[counter] = [self getElapsedTime];
-//        counter++;
         [lapTimes addObject:[NSNumber numberWithDouble:[self getElapsedTime]]];
 //        NSLog(@"%@",lapTimes);
     }
@@ -85,7 +81,6 @@
 {
     self.wowDisplay.text = @"0.000";
     running = false;
-//    counter = 0;
     lapTimes = [[NSMutableArray alloc] init];
 }
 
