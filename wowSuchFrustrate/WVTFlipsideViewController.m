@@ -51,9 +51,17 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ident forIndexPath:indexPath];
     // find the to-do item for this index
     int index = [indexPath row];
-    NSNumber *time = self.lapTimes[index];
+    NSNumber *totalTime = self.lapTimes[index];
+    NSNumber *lapTime;
+    if (index == 0) lapTime = self.lapTimes[index];
+    else lapTime = [NSNumber numberWithFloat:([self.lapTimes[index] floatValue] - [self.lapTimes[index-1] floatValue])];
     // set the text
-    cell.textLabel.text = [NSString stringWithFormat:@"%@",time];
+    NSNumberFormatter *formatter = [[NSNumberFormatter alloc] init];
+    [formatter setNumberStyle:NSNumberFormatterDecimalStyle];
+    [formatter setPositiveFormat:@"##0.000"];
+    cell.textLabel.text = [NSString stringWithFormat:@"%@\t\t\t\t%@", [formatter stringFromNumber:lapTime
+                                                                 ], [formatter stringFromNumber:totalTime
+                                                                     ]];
     return cell;
 }
 @end
