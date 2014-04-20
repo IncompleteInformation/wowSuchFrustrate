@@ -75,6 +75,7 @@
 - (IBAction)stopButtonPressed
 {
     [buttonLabel setTitle:@"START" forState:UIControlStateNormal];
+    running = false;
 //    [self resetStopwatch];
 }
 
@@ -91,6 +92,7 @@
 {
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
         [self dismissViewControllerAnimated:YES completion:nil];
+        [self resetStopwatch];
     } else {
         [self.flipsidePopoverController dismissPopoverAnimated:YES];
     }
