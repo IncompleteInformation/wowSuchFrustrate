@@ -15,11 +15,8 @@
 - (void)flipsideViewControllerDidFinish:(WVTFlipsideViewController *)controller;
 @end
 
-//@interface WVTFlipsideViewController : UIViewController
 @interface WVTFlipsideViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
-// I dragged this is from the storyboard
-// not really sure how to populate it
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (weak, nonatomic) id <WVTFlipsideViewControllerDelegate> delegate;
 @property (nonatomic) NSMutableArray *lapTimes;

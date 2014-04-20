@@ -68,14 +68,13 @@
     else
     {
         [lapTimes addObject:[NSNumber numberWithDouble:[self getElapsedTime]]];
-//        NSLog(@"%@",lapTimes);
     }
 }
 
 - (IBAction)stopButtonPressed
 {
     [buttonLabel setTitle:@"START" forState:UIControlStateNormal];
-//    [self resetStopwatch];
+    running = false;
 }
 
 - (void)resetStopwatch
@@ -105,9 +104,6 @@
 {
     if ([[segue identifier] isEqualToString:@"showAlternate"]) {
         [[segue destinationViewController] setDelegate:self];
-//        UINavigationController *navController = (UINavigationController *)segue.destinationViewController;
-//        WVTFlipsideViewController *flipSideController = (WVTFlipsideViewController *)navController.topViewController;
-//        flipSideController.lapTimes = lapTimes;
         WVTFlipsideViewController *controller = (WVTFlipsideViewController *)segue.destinationViewController;
         controller.lapTimes = lapTimes;
         
